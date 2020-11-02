@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Sumit Saha, Learn with Sumit" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex,no follow" />
+    <title>Voice to Code - Learn with Sumit</title>
+    <link rel="shortcut icon" href="images/favicon.png" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="centered">
+      <div class="center">
+        <img src="./images/logo.png" alt="Learn with Sumit Logo" />
+        <h2>[ Voice to Code ]</h2>
+      </div>
+
+      <pre>
+        Hello learners!
+        First of all, thanks for your interest!
+        To test this app you must use <b>Google Chrome</b>.
+        <br/>
+        Commands available:
+          - <b>HTML</b> open [tag]
+          - <b>HTML</b> content [sentence]
+          - <b>HTML</b> close
+          - <b>CSS</b> open [tag]
+          - <b>CSS</b> style [property-name] is [value] (i.e CSS style color is green)
+          - <b>CSS</b> close
+        <br/>
+        For example, to make this page red, say:
+          - <b>CSS</b> open body
+          - <b>CSS</b> style background color is red
+          - <b>CSS</b> close
+    </pre>
+      <hr />
+      <div class="left">
+        <button class="bg-green" id="start">Start Talking</button>
+        <button class="bg-red" id="stop">Stop Talking</button>
+      </div>
+
+      <div class="right">
+        <span><b>Status:</b></span>
+        <span id="status">Not Talking</span>
+        <br />
+        <span id="command"></span>
+      </div>
+      <div id="preview"></div>
+    </div>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "voice-to-code",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "eslint": "7.2.0",
+    "eslint-config-airbnb-base": "14.2.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.1.2"
+  },
+  "keywords": [],
+  "author": "Sumit Saha <sumit@learnwithsumit.com>",
+  "license": "UNLICENSED",
+  "description": "An web automation boilerplate using Web Speechrecognition API"
+}

@@ -1,0 +1,70 @@
+* {
+  font-family: Courier, monospace;
+  font-size: 0.9rem;
+  background-color: aliceblue;
+}
+
+h2 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+button {
+  padding: 5px 8px;
+  color: white;
+  border: 0;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.bg-green {
+  background-color: green;
+}
+
+.centered {
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+}
+
+img {
+  width: 100px;
+}
+
+.center {
+  text-align: center;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+span.blink {
+  animation: blink 0.75s step-end infinite;
+}
+
+#preview {
+  box-sizing: border-box;
+  margin-top: 60px;
+  padding: 10px;
+  /* border: 1px dotted #333; */
+  width: 100%;
+  background-color: #ffffff;
+}
+
+@keyframes blink {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
